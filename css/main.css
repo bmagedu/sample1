@@ -241,7 +241,9 @@ span#search_box input[type="text"]{
 /*Format for banner */
 #main_banner img{
     width: 100%;
-    height: 400px;
+    width: 100%; /*For responsive image */
+    height: 100%; /*For responsive image */
+    max-height: 400px;
 }
 
 /*---------------------------------------*/
